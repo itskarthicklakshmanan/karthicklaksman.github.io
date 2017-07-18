@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Another sample
+title: First sample post on Github.io
 categories:
 - blog
 ---
