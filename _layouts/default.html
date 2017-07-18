@@ -1,34 +1,5 @@
-<!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/main.css">
-  			<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-  			<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-  			<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-  			  <script>
-  $(function() {
-    $( "#accordion" ).accordion();
-  });
-  </script>
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/index.html"><img src="/camera_pathfinder.png"></a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav><hr>
-			<div class="container">
-			
-			{{ content }}
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:karthick.lakshman@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/karthicklaksman">github.com/karthicklaksman</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+
+{% include sidebar.html %}
+{{ content }}
+{% include footer.html %}
+{% include analytics.html %} 
