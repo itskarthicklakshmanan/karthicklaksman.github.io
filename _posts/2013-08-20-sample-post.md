@@ -3,13 +3,12 @@ layout: post
 title: Sample post
 categories:
 - blog
+output: rmarkdown::github_document
 ---
 
-
-{% highlight r %}
+```{r, echo = FALSE}
 summary(cars)
-{% endhighlight %}
-
+```
 Tattooed roof party *vinyl* freegan single-origin coffee wayfarers tousled, umami yr 
 meggings hella selvage. Butcher bespoke seitan, cornhole umami gentrify put a bird 
 on it occupy trust fund. Umami whatever kitsch, locavore fingerstache Tumblr pork belly
