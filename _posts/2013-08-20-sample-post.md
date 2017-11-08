@@ -6,11 +6,8 @@ categories:
 output: html_document
 ---
 
-```{r echo = TRUE, message = FALSE, warning = FALSE, cache=FALSE}
+```{r echo = FALSE, message = FALSE, warning = FALSE, cache=FALSE}
 summary(cars)
-```
-```{r echo = TRUE, message = FALSE, warning = FALSE, cache=FALSE, fig.width = 6, fig.height = 5, fig.align = "center"}
-sessionInfo()
 ```
 
 Tattooed roof party *vinyl* freegan single-origin coffee wayfarers tousled, umami yr 
