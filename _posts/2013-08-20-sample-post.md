@@ -7,7 +7,7 @@ categories:
 
 
 {% highlight r %}
-summary(iris)
+summary(cars)
 {% endhighlight %}
 
 Tattooed roof party *vinyl* freegan single-origin coffee wayfarers tousled, umami yr 
