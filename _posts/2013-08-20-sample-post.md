@@ -3,8 +3,9 @@ layout: post
 title: Sample post
 categories:
 - blog
-output:   md_document:
-    variant: markdown_github
+output:   
+    md_document:
+        variant: markdown_github
 ---
 
 ```{r, echo=TRUE}
