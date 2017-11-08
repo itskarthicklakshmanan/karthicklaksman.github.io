@@ -3,7 +3,6 @@ layout: post
 title: Sample post
 categories:
 - blog
-output: html_document
 ---
 
 
