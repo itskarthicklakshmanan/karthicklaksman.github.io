@@ -6,7 +6,7 @@ categories:
 ---
 
 
-```r
+```{r echo = FALSE}
 summary(iris)
 ```
 
