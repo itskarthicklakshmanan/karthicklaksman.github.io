@@ -7,7 +7,7 @@ output: html_document
 ---
 
 
-```{r}
+```r
 # Source: http://www.htmlwidgets.org/showcase_plotly.html
 library(plotly)
 p <- ggplot(data = diamonds, aes(x = cut, fill = clarity)) +
