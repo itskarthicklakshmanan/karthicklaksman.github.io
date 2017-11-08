@@ -6,7 +6,7 @@ categories:
 output: html_document
 ---
 
-```{r, echo=TRUE}
+```{r echo = TRUE, message = FALSE, warning = FALSE, cache=FALSE}
 summary(cars)
 ```
 Tattooed roof party *vinyl* freegan single-origin coffee wayfarers tousled, umami yr 
