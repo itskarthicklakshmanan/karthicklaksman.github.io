@@ -3,7 +3,10 @@ layout: post
 title: Sample post
 categories:
 - blog
-output: rmarkdown::github_document
+output: 
+ html_document:
+ keep_md: 
+   true
 ---
 
 ```{r, echo = FALSE}
