@@ -3,3 +3,6 @@ highlighter: rouge
 url: http://example.com
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+output: 
+  md_document:
+    variant: markdown_github
