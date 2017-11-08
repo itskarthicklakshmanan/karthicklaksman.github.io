@@ -3,13 +3,12 @@ layout: post
 title: Sample post
 categories:
 - blog
-output: html_document
 ---
 
 
-```{r, echo = FALSE}
+{% highlight r %}
 summary(iris)
-```
+{% endhighlight %}
 
 Tattooed roof party *vinyl* freegan single-origin coffee wayfarers tousled, umami yr 
 meggings hella selvage. Butcher bespoke seitan, cornhole umami gentrify put a bird 
