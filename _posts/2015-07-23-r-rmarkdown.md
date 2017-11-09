@@ -48,4 +48,4 @@ pie(
 )
 ```
 
-![A fancy pie chart.](2015-07-23-r-rmarkdown_files/figure-markdown_github/pie-1.png)
+![A fancy pie chart.](pie-1.png)
